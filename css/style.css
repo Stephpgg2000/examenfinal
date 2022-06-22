@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+:root{
+	--color-titulos:#2750d0;
+	--color-contenido:#333;
+	--color-naranja:#ff9f06;
+	--color-azul:#2750d0;
+	--fondo-footer:#091f5b;
+}
+header{
+	background-color: #fff;
+	background-color: transparent;
+	width: 100%;
+	padding: 20px 0;
+}
+	
+#hero{
+	background-image: url("../img/slide-2.jpg");
+	background-image: url("../img/slide-1.jpg");
+	background-size: cover;
+	min-height: 500px;
+	background-position: top center;
+	color: #ff930f;
+	padding: 150px;
+}
+
+.titulo{
+	color: #2750d0;
+	text-align: center;
+}
+
+#services{
+	text-align: center;
+	padding: 90px 35px;
+}
+
+#welcome{
+	text-align: center;
+	padding: 90px 35px;
+}
+
+#gallery{
+	text-align: center;
+	padding: 90px 35px;
+	background-color: #2750d0;
+	color: #FFFFFF;
+}
+
+.titulospecial{
+	color: #ff930f;
+}
+
+#testimonials{
+	text-align: center;
+	padding: 90px 35px;
+}
+
+#clients{
+	text-align: center;
+	padding: 90px 36px;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: #acbad4;
+	padding: 30px 0;
+	text-align: center;
+	font-size: 13px;
+}
